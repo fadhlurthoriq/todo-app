@@ -24,7 +24,7 @@ Aplikasi ini cocok sebagai contoh implementasi **State Management + Local Databa
 ### 💾 SQLite (sqflite)
 
 * Database lokal untuk menyimpan todo
-* Tidak menggunakan Hive sesuai permintaan
+* Tidak menggunakan Hive untuk penyimpanan data nya
 
 ### 📂 Struktur Projek Singkat
 
