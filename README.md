@@ -90,11 +90,11 @@ flutter run
 ## 📸 Screenshots
 
 <img src="https://github.com/user-attachments/assets/f7627c0e-35b9-40bb-b3e7-06e0219d52fa" width="300"> 
-![tambah](https://github.com/user-attachments/assets/c5ea9283-ceb7-4afd-b498-876ddf4804cb)
-![home tambah](https://github.com/user-attachments/assets/4975a46f-0f70-4f6d-82c8-76040855b6f8) 
-![edit](https://github.com/user-attachments/assets/0029cb16-0a23-4fc7-a7b1-8fe00fa3f3db)
-![home edit](https://github.com/user-attachments/assets/d7949090-147f-40eb-9b3c-9b27d58ae14f) 
-![home hapus](https://github.com/user-attachments/assets/c6f1b8da-8aad-4cc2-ad80-e9140d685e13)
+<img src="https://github.com/user-attachments/assets/c5ea9283-ceb7-4afd-b498-876ddf4804cb" width="300">
+<img src="https://github.com/user-attachments/assets/4975a46f-0f70-4f6d-82c8-76040855b6f8" width="300">
+<img src="https://github.com/user-attachments/assets/0029cb16-0a23-4fc7-a7b1-8fe00fa3f3db" width=""300>
+<img src="https://github.com/user-attachments/assets/d7949090-147f-40eb-9b3c-9b27d58ae14f" width=""300>
+<img src="https://github.com/user-attachments/assets/c6f1b8da-8aad-4cc2-ad80-e9140d685e13" width="300">
 
 ---
 
