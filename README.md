@@ -4,7 +4,7 @@
 
 Aplikasi ini adalah aplikasi **Todo sederhana** yang dibuat menggunakan **Flutter**, dengan fitur utama untuk menambahkan, mengedit, dan menghapus item todo. Data disimpan secara lokal menggunakan **SQLite**, dan seluruh state dikelola menggunakan **BLoC (Business Logic Component)**.
 
-Aplikasi ini cocok sebagai contoh implementasi **State Management + Local Database** menggunakan arsitektur yang rapi dan terstruktur.
+Aplikasi ini menerapkan implementasi **State Management + Local Database** menggunakan arsitektur yang rapi dan terstruktur.
 
 ---
 
