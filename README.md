@@ -1,4 +1,4 @@
-# Flutter Todo App (SQLite + BLoC)
+![tambah](https://github.com/user-attachments/assets/9768837e-86fa-4df9-9941-5f9106460904)# Flutter Todo App (SQLite + BLoC)
 
 ## 📌 Deskripsi Aplikasi
 
@@ -30,12 +30,13 @@ Aplikasi ini cocok sebagai contoh implementasi **State Management + Local Databa
 
 ```
 lib/
- ├─ blocs/
- │   └─ todo_bloc.dart
- ├─ db/
- │   └─ db_helper.dart
- ├─ models/
- │   └─ todo.dart
+ ├─ data/
+ │   ├─ db.dart
+ │   └─ todo_model.dart
+ ├─ logic/
+ │   ├─ todo_bloc.dart
+ │   ├─ todo_event.dart
+ |   └─ todo_state.dart
  ├─ screens/
  │   ├─ home_screen.dart
  │   └─ edit_screen.dart
@@ -61,10 +62,11 @@ lib/
 dependencies:
   flutter:
     sdk: flutter
-  sqflite: ^2.3.0
-  path: ^1.9.0
   flutter_bloc: ^8.1.3
   equatable: ^2.0.5
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.4
 ```
 
 ---
@@ -73,8 +75,8 @@ dependencies:
 
 ```bash
 # clone repo
-git clone <url-repo>
-cd <nama-folder-proyek>
+git clone <https://github.com/fadhlurthoriq/todo-app>
+cd <todo-app>
 
 # install dependencies
 flutter pub get
@@ -88,6 +90,12 @@ flutter run
 ## 📸 Screenshots
 
 *(tambahkan screenshot di sini setelah upload)*
+![home](https://github.com/user-attachments/assets/f7627c0e-35b9-40bb-b3e7-06e0219d52fa)
+![tambah](https://github.com/user-attachments/assets/c5ea9283-ceb7-4afd-b498-876ddf4804cb)
+![home tambah](https://github.com/user-attachments/assets/4975a46f-0f70-4f6d-82c8-76040855b6f8)
+![edit](https://github.com/user-attachments/assets/0029cb16-0a23-4fc7-a7b1-8fe00fa3f3db)
+![home edit](https://github.com/user-attachments/assets/d7949090-147f-40eb-9b3c-9b27d58ae14f)
+![home hapus](https://github.com/user-attachments/assets/c6f1b8da-8aad-4cc2-ad80-e9140d685e13)
 
 ---
 
@@ -96,18 +104,11 @@ flutter run
 * Menggunakan pola pemisahan File per Layer (UI / Bloc / DB)
 * Tidak menggunakan Provider, hanya flutter_bloc
 * Menggunakan Future dan async/await untuk operasi database
-* Tidak menggunakan description, hanya **title** untuk todo
-
----
-
-## 📄 Lisensi
-
-Proyek ini bebas digunakan untuk belajar, mengembangkan, dan dimodifikasi.
 
 ---
 
 ## 👤 Author
 
-Dibuat oleh: **Fadhlurrahman Thoriq**
+Dibuat oleh: **M. Fadhlurrahman Thoriq**
+             **Raffi Gani Jabbaru**
 
-Jika butuh bantuan atau pengembangan fitur lanjut, silakan hubungi 🙌
