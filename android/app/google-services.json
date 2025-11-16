@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "387149329000",
+    "project_id": "coba-4e971",
+    "storage_bucket": "coba-4e971.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387149329000:android:08c818b50b94b752e5c1dd",
+        "android_client_info": {
+          "package_name": "com.example.todo_sqlite_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8POJxKYAlWdoDAsXnnD5emLbA98uPaAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
